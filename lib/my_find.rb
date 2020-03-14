@@ -7,4 +7,4 @@ def my_find(collection)
 end
 
 colleciction = (1..100).to_a 
-  my_find(collection)[] 
+ my_find(collection) { 
